@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+    
+.header {
+    font-size: 100px;
+}
+.indexPrincipal{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #F8E993;
+    background-color: aliceblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.menuResponsive{
+    font-size: 0.8em;
+}
+
+    
+   
+
+    .crazyEleanor {
+        text-align: center;
+        background-color: #F9B1E3;
+        padding: 10px;
+        text-transform: uppercase;
+        font-size: 0.8em;
+        font-weight: bolder;
+           }
+
+ .menuPadre{
+     display: grid;
+     grid-template-columns: 25% 25% 25% 25%;   
+     height: 2em;
+     text-align: center;
+     gap: 10px;
+
+    
+ }
+
+ .menuProductos{
+     background-color:#9919F2
+ }
+ .menuPrrrrr {
+     background-color: lightcoral;
+
+ }
+
+ .menuQuienesSomos{
+     background-color: lightseagreen;
+ }
+
+ .menuContactanos{
+     background-color: lightgreen;
+ }
+    .promosBancarias{
+        font-size: 0.8em;
+        text-align: center;
+        background-color:#F9B1E3;
+        margin: 30px;
+        text-transform: uppercase;
+        
+    }
+    .pagando {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+.comoPagar{
+    font-size:large;
+    font-weight: bolder;
+    color: black;
+    padding: 10px;
+    
+}
+
+    
+.productosDestacados{
+    text-align: center;
+    background-color:#F9B1E3;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1em;
+    margin: 30px;
+    
+}
+
+.prodDestacados {
+    
+   /* display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    justify-content: space-between;
+    justify-items: center;
+    width: 200vh;
+    font-size: 0.8em;*/
+    display: grid;
+    grid-template-areas: "prodDestacados prodDestacados"    
+                            "imagenCero     imagenUno"
+                            "imagenDos    imagenTres"
+                                 "imagenCuatro";    
+
+    justify-content: center;
+
+                               
+}
+.prodDestacados{
+grid-area: prodDestacados;
+    
+}
+.imagenCero{
+    grid-area: imagenCero;
+    
+
+}   
+.imagenUno{
+    grid-area: imagenUno;
+}
+
+.imagenDos{
+    grid-area: imagenDos;
+
+}
+
+.imagenTres{
+    grid-area: imagenTres;
+}
+
+.imagenCuatro {
+    grid-area: imagenCuatro;
+}
+
+
+
+
+.daddy{
+    display: grid;
+    grid-template-columns: repeat(3 15%);
+    height: 50vh;
+    font-size: 1em;
+    
+    
+    
+    
+    
+}   
+h3 {
+    background-color: #F9B1E3;
+    text-align: center;
+    font-weight: bold;
+    padding: 25px;
+    margin: 30px;
+    text-transform: uppercase;
+}
+
+ 
+
+    
+ 
+
+/*.menuGeneral{
+    background-color: #F9B1E3;
+    font-size: medium;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: hsl(276, 94%, 69%) solid 5px;
+    padding: 20px 50px;
+    height: 350px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+     
+    
+
+}
+   
+/*.imagenEleanor{
+  justify-content: right;
+    height: 350px;
+    clear: right;
+ 
+    
+}/*
+
+
+
+
+
+ul{ 
+    font-size:x-large;
+    color: #1D022F;
+      
+    
+
+}
+ul li h2 { 
+    padding: 0ch;
+    border-color: #D3B0EC;
+    border-style: groove;
+    text-align: center;
+    margin: auto;
+    background-color: #F9B1E3;
+    font-size: x-large;
+  
+}*/
+
+
+h2{ color: #9919F2;
+}
+
+p{
+    font-size: large;
+}
+
+ul li h3 {
+    padding: 0%;
+    border-color: #D3B0EC;
+    border-style: groove;
+    text-align: center;
+    margin: auto;
+    background-color: #F9B1E3;
+    font-size: x-large;
+}
+
+h3 { 
+    color: #9919F2;
+    
+}
+
+.ParaCambiarElDia
+{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.prrrrr {
+    background-color: #9919F2;
+    font-weight:bolder;
+    padding: 50px;
+    border: #9919F2;
+    border-radius: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.gifAlegre{
+    display: contents;
+}
+
+.quienesSomos {
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #F9B1E3;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 50px;
+}
+
+.quienesSomosDos {
+    padding: 20px;
+    font-weight: bold;
+    text-decoration: solid;
+    margin: 20px;
+    
+}
+
+.quienesSomosTres{
+    text-align: center;
+    font-weight: bolder;
+    color: black;
+}
+ .descripcionEnBreve{
+     padding: 30px;
+     margin: 30px;
+     background-color:aqua;
+     border: black;
+ }
+
+ .productos {
+     text-align: center;
+     background-color: #9919F2;
+     padding: 30px;
+     margin: 20px;
+ }
+ .productosDos{
+     display: inline;
+     
+ }
+
+ .camitas{
+     text-align: center;
+     height: 100px;
+
+     width: 30px;
+ }
+
+ footer{
+     text-align: center;
+     font-weight: bold;
+ }
+ 
+ .volverAlHome{
+     font-size:xx-small;
+     padding: 30px;
+     margin: 20px;
+ }
+
+.hola
+{
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+    background-color: #9919F2;
+    padding: 20px;
+    margin: 20px;
+}
+
+.contactanos{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-weight: bolder;
+    
+}
+
+.contactanosDos {
+    border: solid black 5px;
+    padding: 20px;
+    margin: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.volverAlHomeDos{
+    font-size:xx-small;
+    padding: 100px;
+    margin-bottom: 0%;
+    
+}
+
